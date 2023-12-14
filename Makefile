@@ -16,10 +16,10 @@
 
 .DEFAULT_GOAL := help
 
-YGOT_VERSION ?= v0.24.4
+YGOT_VERSION ?= v0.29.17
 WORKDIR = work
 OUTDIR = output
-GO_PKG_NAME = github.com/srl-labs/ygotsrl
+GO_PKG_NAME = github.com/hansthienpondt/ygotsrl
 SRL_MAJOR_VER=$(shell echo ${SRLINUX_VERSION} | cut -d . -f 1)
 
 ## ONESHELL makes Make to use singe shell sessions for command lines defined in targets.
